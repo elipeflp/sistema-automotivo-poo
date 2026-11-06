@@ -1,0 +1,19 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: estoque_veiculos
+      MYSQL_USER: estoque
+      MYSQL_PASSWORD: ${DB_PASSWORD:-estoque_local_2026}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_local_2026}
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - estoque_mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+volumes:
+  estoque_mysql:

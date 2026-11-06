@@ -1,0 +1,14 @@
+{
+  "resultado": "APROVADO",
+  "banco": "MySQL 8.0.46",
+  "java": "17",
+  "springBoot": "3.5.7",
+  "veiculosAposTeste": 4,
+  "persistenciaAposReinicio": "APROVADO",
+  "exclusaoDisponivelHTTP": 409,
+  "faixaInvertidaHTTP": 400,
+  "consultasMedidas": 10,
+  "mediaMs": 11.14,
+  "maximoMs": 14.8,
+  "observacao": "Medição local com quatro veículos; não representa teste de carga."
+}

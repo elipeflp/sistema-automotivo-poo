@@ -1,0 +1,20 @@
+SISTEMA AUTOMOTIVO - GESTÃO DE ESTOQUE DE VEÍCULOS
+Felipe Ferreira Freire
+Object Oriented Programming
+
+Código-fonte: https://github.com/elipeflp/sistema-automotivo-poo
+
+Conteúdo do pacote ZIP:
+- documentacao: relatórios teórico e prático em PDF.
+- src: código-fonte e testes automatizados.
+- banco: scripts SQL para MySQL.
+- evidencias: prints do sistema e resultados dos testes.
+- dist: executável Java incluído no pacote ZIP.
+
+Execução local:
+1. Extraia o pacote inteiro.
+2. Consulte README.md para preparar Java 17 e MySQL.
+3. Execute iniciar.bat no Windows ou iniciar.sh no Linux/macOS.
+4. Abra http://localhost:8080 no navegador.
+
+Ao obter o projeto pelo GitHub, use Maven para gerar o JAR em target.

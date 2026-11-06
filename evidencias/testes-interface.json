@@ -1,0 +1,16 @@
+{
+  "resultado": "APROVADO",
+  "verificacoes": [
+    "Listagem inicial com quatro veículos",
+    "Catálogo de marcas e modelos",
+    "Cadastro de modelo pela interface",
+    "Cadastro de veículo pela interface",
+    "Filtro combinado com marca, modelo, preço, ano, status e tipo",
+    "Atualização de preço, quilometragem e status",
+    "Exclusão de vendido com confirmação",
+    "Limpeza de filtros restaura quatro veículos",
+    "Layout móvel sem overflow da página",
+    "Nenhum erro JavaScript"
+  ],
+  "errosJavaScript": []
+}
